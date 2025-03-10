@@ -1,0 +1,37 @@
+.custom-card {
+  max-width: 345px;
+  margin: 1rem;
+  background-color: #f8e8e8;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+.custom-card-media {
+  height: 170px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover .custom-card-media {
+  transform: scale(1.1);
+}
+
+.custom-card-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #800000;
+  border: none;
+  padding: 0;
+  font-size: 0.8rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-card-button:hover {
+  color: #a00000;
+}

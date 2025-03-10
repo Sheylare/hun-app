@@ -8,9 +8,15 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.cache/
 dist
 dist-ssr
+build/
 *.local
+
+# Archivos de bloqueo
+package-lock.json
+yarn.lock
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +28,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Variables de entorno
+*.env

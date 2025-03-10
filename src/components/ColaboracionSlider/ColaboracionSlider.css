@@ -1,0 +1,35 @@
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 1rem 2rem;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    width: calc(200%); 
+  }
+  
+  .slide {
+    flex: 1 0 25%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .slide h3 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-family: "Geist", "Geist Placeholder", sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
