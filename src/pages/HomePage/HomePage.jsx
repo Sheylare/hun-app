@@ -2,6 +2,8 @@ import React from "react";
 import "./HomePage.css";
 import Galeria from "../../components/CustomMaterialUiComponents/Galeria";
 import ServiceCards from "../../components/CustomMaterialUiComponents/ServiceCards";
+import PressOnSection from "../../components/Press0nSection/PressOnSection";
+
 import ColaboracionSlider from "../../components/ColaboracionSlider/ColaboracionSlider";
 import CircularText from "../../components/CircularText/CircularText";
 import AboutMe from "../../assets/images/aboutImg.jpg";
@@ -33,6 +35,7 @@ function HomePage() {
         </div>
         <div className="home-content">
           <h1>HUN NAILS</h1>
+          <h3>STUDIO</h3>
           <h4>Nail Art Studio en Barcelona</h4>
           <Button
             component={Link}
@@ -83,9 +86,13 @@ function HomePage() {
         </div>
       </div>
       <div className="servicios-section">
-        <h2>SERVICIOS</h2>
+        {/* <h2>SERVICIOS</h2> */}
         <ServiceCards />
       </div>
+      <div className="pressOn-section">
+        <PressOnSection />
+      </div>
+      
       <div className="about-section">
         <h2>HUN Studio</h2>
         <img

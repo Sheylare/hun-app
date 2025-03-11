@@ -12,9 +12,11 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@fullpage/react-fullpage": "^0.1.48",
     "@mui/icons-material": "^6.4.6",
     "@mui/material": "^6.4.6",
     "framer-motion": "^12.4.10",
+    "fullpage.js": "^4.0.34",
     "gsap": "^3.12.7",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.0",
@@ -22,6 +24,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",
+    "react-scroll-snap": "^1.0.0",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1"
   },
