@@ -35,8 +35,8 @@ function HomePage() {
         </div>
         <div className="home-content">
           <h1>HUN NAILS</h1>
-          <h3>STUDIO</h3>
-          <h4>Nail Art Studio en Barcelona</h4>
+          <h3 className="roboto-font">STUDIO</h3>
+          <h4 className="roboto-font">Nail Art Studio en Barcelona</h4>
           <Button
             component={Link}
             to="/reserva"
@@ -53,7 +53,6 @@ function HomePage() {
               backgroundColor: "transparent",
               fontSize: "1rem",
               fontWeight: "bolder",
-              fontFamily: "Geist Geist Placeholder sans-serif",
               textTransform: "capitalize",
               cursor: "pointer",
               transition: "color 0.5s ease, transform 0.3s ease",

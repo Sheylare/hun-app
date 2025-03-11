@@ -8,3 +8,8 @@
 body {
   font-family: 'Impact', sans-serif;
 }
+
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
