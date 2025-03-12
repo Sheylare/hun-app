@@ -2,7 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import Galeria from "../../components/CustomMaterialUiComponents/Galeria";
 import ServiceCards from "../../components/CustomMaterialUiComponents/ServiceCards";
-import PressOnSection from "../../components/Press0nSection/PressOnSection";
+import HeroSection from "../../components/HeroSection/HeroSection";
 
 import ColaboracionSlider from "../../components/ColaboracionSlider/ColaboracionSlider";
 import CircularText from "../../components/CircularText/CircularText";
@@ -10,8 +10,6 @@ import AboutMe from "../../assets/images/aboutImg.jpg";
 import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Aurora from "../../components/Aurora/Aurora";
-import GradientText from "../../components/ReservaButton/GradientText";
 import giftCard1 from "../../assets/images/giftCard1.jpeg";
 import giftCard2 from "../../assets/images/giftCard2.jpeg";
 import giftCard3 from "../../assets/images/giftCard3.jpeg";
@@ -19,38 +17,11 @@ import giftCard4 from "../../assets/images/giftCard4.jpeg";
 import { Container, Grid2 } from "@mui/material";
 
 function HomePage() {
-  const auroraStyle = {
-    position: "absolute",
-    top: "50%", // Centra verticalmente
-    left: "50%", // Centra horizontalmente
-    transform: "translate(-50%, -50%)", // Ajusta para que esté exactamente en el medio
-  };
 
   return (
     <div>
-      <div className="home-section">
-        <div style={{ position: "relative", width: "100%", height: "100vh" }}>
-          <Aurora
-            style={auroraStyle} // Pasar el estilo al componente
-            colorStops={["#f3d2d2", "#FF94B4", "#9E2A2A"]}
-            blend={0.5}
-            amplitude={0.9}
-            speed={0.5}
-          />
-        </div>
-        <div className="home-content">
-          <h1>HUN NAILS</h1>
-          <h3 className="roboto-font">STUDIO</h3>
-          <h4 className="roboto-font">Nail Art en Barcelona</h4>
-          <GradientText
-            colors={["#800000", "#C97575", "#800000", "#C97575", "#800000"]}
-            animationSpeed={6}
-            showBorder={false}
-            className="reserva-button roboto-font"
-          >
-            Reserva
-          </GradientText>
-        </div>
+      <div className="pressOn-section">
+        <HeroSection />
       </div>
       <div className="galeria-section">
         <h2>Un Poco De </h2>
@@ -69,9 +40,6 @@ function HomePage() {
       <div className="servicios-section">
         {/* <h2>SERVICIOS</h2> */}
         <ServiceCards />
-      </div>
-      <div className="pressOn-section">
-        <PressOnSection />
       </div>
       <div className="giftCard-section">
       <h2>Gift Card</h2>

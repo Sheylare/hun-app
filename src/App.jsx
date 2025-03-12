@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import ReservationPage from "./pages/ReservationPage/ReservationPage";
 import NailArtPage from "./pages/NailArtPage/NailArtPage";
 import NailArtDetailsPage from "./pages/NailArtPage/NailArtDetailsPage";
+import WorkShops from "./pages/WorkShops/WorkShops";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import CarritoPage from "./pages/CarritoPage/CarritoPage";
 import Navbar from "./components/Navbar/Navbar";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/reserva" element={<ReservationPage />} />
         <Route path="/nailart" element={<NailArtPage />} />
         <Route path="/nailart/:id" element={<NailArtDetailsPage />} />
+        <Route path="/workshops" element={<WorkShops />} />
         <Route path="/contacto" element={<ContactPage />} />
         <Route path="/carrito" element={<CarritoPage />} />
       </Routes>

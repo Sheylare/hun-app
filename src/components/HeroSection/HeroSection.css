@@ -1,0 +1,33 @@
+.home-content {
+  position: absolute;
+  
+
+  h1 {
+    color: #800000;
+    font-size: 3.5rem;
+    letter-spacing: 0.12rem;
+    padding-top: 31rem;
+    margin: 0;
+  }
+
+  h3 {
+    color: #f3d2d2;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.09rem;
+    text-align: right;
+    padding-left: 11rem;
+    margin: 0;
+  }
+
+  .reserva-button-container {
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    flex-grow: 1;
+    box-sizing: border-box;
+   
+  }
+}
