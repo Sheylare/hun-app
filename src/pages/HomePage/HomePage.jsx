@@ -3,7 +3,7 @@ import "./HomePage.css";
 import Galeria from "../../components/CustomMaterialUiComponents/Galeria";
 import ServiceCards from "../../components/CustomMaterialUiComponents/ServiceCards";
 import HeroSection from "../../components/HeroSection/HeroSection";
-
+import Map from "../../components/MapLocation/Map";
 import ColaboracionSlider from "../../components/ColaboracionSlider/ColaboracionSlider";
 import CircularText from "../../components/CircularText/CircularText";
 import AboutMe from "../../assets/images/aboutImg.jpg";
@@ -24,9 +24,8 @@ function HomePage() {
         <HeroSection />
       </div>
       <div className="galeria-section">
-        <h2>Un Poco De </h2>
         <h2>Magia y Fantasía </h2>
-        <h3>En Tus Uñas</h3>
+        <h3>En tus Uñas</h3>
         <Galeria />
         <div className="circular-text">
           <CircularText
@@ -78,6 +77,9 @@ function HomePage() {
       <div className="colaboraciones-section">
         <h2>Colaboraciones</h2>
         <ColaboracionSlider />
+      </div>
+      <div>
+        <Map/>
       </div>
     </div>
   );

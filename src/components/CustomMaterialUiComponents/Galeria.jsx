@@ -73,32 +73,32 @@ const Galeria = () => {
 
   return (
     <Paper
-      elevation={0}
-      style={{ padding: "0.15rem", maxWidth: "1000px", height: "auto", margin: "auto", backgroundColor: '#F8E8E8' }}
-    >
-      <Slider {...settings}>
-        {imagenes.map((imagen) => (
-          <div key={imagen.id} style={{ padding: "0 0.5rem", boxSizing: "border-box" }}>
-            <img
-              src={imagen.src}
-              alt={imagen.alt}
-              style={{ width: "100%", height: "300px", objectFit: "cover" }} 
-            />
-          </div>
-        ))}
-      </Slider>
-      <Slider {...settingsRtl}>
-        {imagenes2.map((imagen) => (
-          <div key={imagen.id} style={{ padding: "0 0.5rem", boxSizing: "border-box" }}>
-            <img
-              src={imagen.src}
-              alt={imagen.alt}
-              style={{ width: "100%", height: "300px", objectFit: "cover" }} 
-            />
-          </div>
-        ))}
-      </Slider>
-    </Paper>
+    elevation={0}
+    style={{ maxWidth: "1000px", height: "auto", margin: "auto", backgroundColor: '#F8E8E8' }}
+  >
+    <Slider {...settings}>
+      {imagenes.map((imagen) => (
+        <div key={imagen.id} style={{ display: "flex", flexDirection: "row", alignContent:"center",  boxSizing: "border-box" }}>
+          <img
+            src={imagen.src}
+            alt={imagen.alt}
+            style={{ width: "99%", height: "350px", objectFit: "cover" }} 
+          />
+        </div>
+      ))}
+    </Slider>
+    <Slider {...settingsRtl}>
+      {imagenes2.map((imagen) => (
+        <div key={imagen.id} style={{ padding: "0 0.5rem", boxSizing: "border-box", margin: "0 10px" }}>
+          <img
+            src={imagen.src}
+            alt={imagen.alt}
+            style={{ width: "99%", height: "300px", objectFit: "cover" }} 
+          />
+        </div>
+      ))}
+    </Slider>
+  </Paper>
   );
 };
 

@@ -15,6 +15,7 @@
     "@fullpage/react-fullpage": "^0.1.48",
     "@mui/icons-material": "^6.4.6",
     "@mui/material": "^6.4.6",
+    "@react-google-maps/api": "^2.20.6",
     "framer-motion": "^12.4.10",
     "fullpage.js": "^4.0.34",
     "gsap": "^3.12.7",

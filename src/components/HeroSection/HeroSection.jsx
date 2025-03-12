@@ -42,15 +42,15 @@ function HeroSection() {
         <div className="reserva-button-container">
           <Button component={Link} to="/reserva"
             sx={{
-              marginTop: "2rem",
+              marginTop: "2.1rem",
               border: "1px solid #800000",
-              borderRadius: "10px",
+              borderRadius: "7px",
               color: "#800000",
               width: {
-                xs: "38%",
+                xs: "35%",
                 md: "5rem",
               },
-              fontSize: "0.75rem",
+              fontSize: "0.65rem",
               backgroundColor: "transparent",
               fontWeight: "bolder",
               textTransform: "uppercase",
