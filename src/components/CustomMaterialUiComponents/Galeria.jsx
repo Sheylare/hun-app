@@ -82,7 +82,7 @@ const Galeria = () => {
           <img
             src={imagen.src}
             alt={imagen.alt}
-            style={{ width: "99%", height: "350px", objectFit: "cover" }} 
+            style={{ width: "99%", height: "19rem", objectFit: "cover" }} 
           />
         </div>
       ))}
