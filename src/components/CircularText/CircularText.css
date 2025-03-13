@@ -3,7 +3,7 @@
     border-radius: 50%;
     width: 10rem;
     position: relative;
-    height: 9rem;
+    height: 10rem;
     font-weight: bold;
     color: #800000;
     font-weight: 900;
@@ -23,4 +23,5 @@
     bottom: 0;
     font-size: 1.5rem;
     transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+    padding-top: 1rem;
   }
