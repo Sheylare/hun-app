@@ -42,25 +42,24 @@ function HeroSection() {
         <div className="reserva-button-container">
           <Button component={Link} to="/reserva"
             sx={{
-              marginTop: "2.1rem",
-              border: "1px solid #800000",
+              mt: 2,
+              px: 3,
+              py: 1,
+              border: "2px solid #800000",
               borderRadius: "7px",
               color: "#800000",
-              width: {
-                xs: "35%",
-                md: "5rem",
-              },
-              fontSize: "0.65rem",
-              backgroundColor: "transparent",
-              fontWeight: "bolder",
+              fontSize: "0.75rem",
+              fontWeight: "bold",
               textTransform: "uppercase",
-              cursor: "pointer",
-              transition: "color 0.5s ease, transform 0.3s ease",
-              ":hover": {
-                // color: "#800000",
-                transform: "translateY(-4px)",
+              backgroundColor: "transparent",
+              transition: "all 0.3s ease-in-out",
+              "&:hover": {
+                backgroundColor: "#800000",
+                color: "white",
+                transform: "translateY(-3px)",
               },
             }}
+  
             
           >
             Pide tu cita
