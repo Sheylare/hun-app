@@ -82,7 +82,7 @@ const Galeria = () => {
           <img
             src={imagen.src}
             alt={imagen.alt}
-            style={{ width: "99%", height: "19rem", objectFit: "cover" }} 
+            style={{ width: "99%", height: "15rem", objectFit: "cover" }} 
           />
         </div>
       ))}
@@ -93,7 +93,7 @@ const Galeria = () => {
           <img
             src={imagen.src}
             alt={imagen.alt}
-            style={{ width: "99%", height: "300px", objectFit: "cover" }} 
+            style={{ width: "99%", height: "15rem", objectFit: "cover" }} 
           />
         </div>
       ))}

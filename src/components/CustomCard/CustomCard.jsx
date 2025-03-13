@@ -5,7 +5,7 @@ import "./CustomCard.css";
 
 const CustomCard = ({ id, image }) => {
   return (
-    <Card className="custom-card" sx={{ width: "100%", height: "8.5rem" }}>
+    <Card className="custom-card" sx={{ width: "100%", height: "9rem" }}>
       <CardActionArea
         sx={{
           backgroundImage: `url(${image})`,
@@ -21,8 +21,8 @@ const CustomCard = ({ id, image }) => {
         component={Link}
         to={`/nailart/${id}`}
       >
-        <Button sx={{ color: "#800000", fontSize: "0.6rem"}} variant="text" className="custom-card-button">
-          Ver más detalles
+        <Button sx={{ color: "#4b0101", fontSize: "0.7rem"}} variant="text" className="custom-card-button">
+          Ver más
         </Button>
       </CardActionArea>
     </Card>
